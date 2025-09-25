@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("fonts/Montserrat-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("fonts/Montserrat-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("fonts/Montserrat-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("fonts/Montserrat-BlackItalic.ttf") format("truetype");
+  font-weight: black;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("fonts/Montserrat-ExtraBold.ttf") format("truetype");
+  font-weight: extra bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("fonts/Montserrat-Black.ttf") format("truetype");
+  font-weight: black;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("fonts/Montserrat-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("fonts/Montserrat-Thin.ttf") format("truetype");
+  font-weight: 100;
+
+  font-style: normal;
+}
+:root {
+  --black: #000000;
+  --blue: #8895f5;
+  --sky-blue: #8895f5;
+  --light-gray: #f7f7fd;
+  --dim-white: #f9fafb;
+}
+body {
+  /* font-family:'Montserrat',sans-serif; */
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  height: 65px;
+}
+.logo-text {
+  font-size: 27px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  position: relative;
+  top: 5px;
+}
+/* .bold{
+    font-weight: bold !important;
+} */
